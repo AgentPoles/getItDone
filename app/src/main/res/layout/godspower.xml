@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ac46ad"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/cool"
+    android:layout_gravity="center"
+   android:layout_centerInParent="true"
+    android:src="@mipmap/antherbaby"
+    android:layout_width="200dp"
+    android:layout_height="200dp" />
+    <RelativeLayout
+        android:layout_below="@+id/cool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#ae31"
+            android:textSize="50dp"
+            android:layout_centerInParent="true"
+            android:text="i am crazy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/ic_abb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:visibility="visible">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_abb"
+            app:backgroundTint="@color/white" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:background="#dfdfdf"
+        android:hint="enter your name" />
+</FrameLayout>

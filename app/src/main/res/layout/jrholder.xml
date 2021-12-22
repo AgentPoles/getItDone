@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/specimage"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/recents"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <TextView
+             android:layout_marginTop="19dp"
+            android:layout_alignParentRight="true"
+            android:text="15:23pm"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="i love uoy alll tofay ih aleays"
+            android:layout_below="@+id/specimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
